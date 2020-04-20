@@ -238,11 +238,25 @@
 		
 		"wide"			"20"
 		"tall"			"20"
-		"
 		"default"		"1"
 		"labelText"		"&ESC"
 		"Command"		"close"
 		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"proportionaltoparent"	"1"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image" "replay/thumbnails/softicons/x"
+		}	
 	}
 
 	"NotificationsPresentPanel"

@@ -64,7 +64,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DashboardDimmer"
-		"xpos"			"9999"i
+		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"0"

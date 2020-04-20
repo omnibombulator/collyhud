@@ -2992,6 +2992,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Damage18"
+		{
+			"1"
+			{
+				"name"		"Product Sans Bold"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
 		"Damage18Outline"
 		{
 			"1"
@@ -3000,7 +3009,6 @@ Scheme
 				"tall"		"18"
 				"antialias" "1"
 				"outline"	"1"
-				"antialias" "1"
 			}
 		}
 		"Damage19Outline"
@@ -3011,7 +3019,6 @@ Scheme
 				"tall"		"19"
 				"antialias" "1"
 				"outline"	"1"
-				"antialias" "1"
 			}
 		}
 		"Damage20Outline"
@@ -3022,7 +3029,6 @@ Scheme
 				"tall"		"20"
 				"antialias" "1"
 				"outline"	"1"
-				"antialias" "1"
 			}
 		}
 		"Damage21Outline"
@@ -3033,7 +3039,6 @@ Scheme
 				"tall"		"21"
 				"antialias" "1"
 				"outline"	"1"
-				"antialias" "1"
 			}
 		}
 		"Damage22Outline"
@@ -3044,7 +3049,6 @@ Scheme
 				"tall"		"22"
 				"antialias" "1"
 				"outline"	"1"
-				"antialias" "1"
 			}
 		}
 		"Damage23Outline"
@@ -3055,7 +3059,6 @@ Scheme
 				"tall"		"23"
 				"antialias" "1"
 				"outline"	"1"
-				"antialias" "1"
 			}
 		}
 		"regular22Blur"
@@ -3066,7 +3069,6 @@ Scheme
 				"tall"		"22"
 				"antialias" "1"
 				"blur"		"1"
-				"antialias" "1"
 			}
 		}
 		"regular24"
@@ -3077,7 +3079,6 @@ Scheme
 				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"regular24Blur"
@@ -3088,7 +3089,6 @@ Scheme
 				"tall"		"24"
 				"antialias" "1"
 				"blur"		"1"
-				"antialias" "1"
 			}
 		}
 		"regular26"
@@ -3099,7 +3099,6 @@ Scheme
 				"tall"		"26"
 				"antialias" "1"
 				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"regular26DS"
@@ -10678,7 +10677,6 @@ Scheme
 			}
 		}			
 		"7" "resource/ocra.ttf"
-		}
 		"9"
 		{
 			"font" "resource/fonts/HUDNumbers-Edit.ttf"
@@ -10689,32 +10687,32 @@ Scheme
 			"font" "resource/fonts/Roboto-Medium.ttf"
 			"name" "Roboto Medium"
 		}
-		"10"
+		"11"
 		{
 			"font" "resource/fonts/Roboto-Bold.ttf"
 			"name" "Roboto Bold"
 		}
-		"11"
+		"12"
 		{
 			"font" "resource/fonts/Blank.ttf"
 			"name" "BlankSerif"
 		}
-		"12"
+		"13"
 		{
 			"font" "resource/fonts/Product Sans.ttf"
 			"name" "Product Sans"
 		}
-		"12"
+		"14"
 		{
 			"font" "resource/fonts/ProductSansBold.ttf"
 			"name" "Product Sans Bold"
 		}
-		"13"
+		"15"
 		{
 			"font" "resource/fonts/Blocks-Blocks.ttf"
 			"name" "blocks blocks"
 		}
-		"14"
+		"16"
 		{
 			"font" "resource/fonts/yahud.otf"
 			"name" "yahud"

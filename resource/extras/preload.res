@@ -1,5 +1,15 @@
 "Resource/UI/MainMenuOverride.res"
 {
+	"BTCross"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/btcross"
+	}
+	
 	"CartBlue"
 	{
 		"ControlName"	"ImagePanel"

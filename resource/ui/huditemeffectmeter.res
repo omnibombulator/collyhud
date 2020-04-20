@@ -47,7 +47,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"product8"
-		"fgcolor"					"tanlight"
+		"fgcolor"				"tanlight"
 	}
 
 	"ItemEffectMeter"
@@ -67,7 +67,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"			"0 0 0 100
+		"bgcolor_override"			"0 0 0 100"
 		"fgcolor_override"			"tanlight"
 	}					
 }

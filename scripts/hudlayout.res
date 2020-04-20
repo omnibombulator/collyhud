@@ -80,7 +80,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r112"	[$WIN32]
+		"ypos"			"r108"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"140"
 		"wide_minmode"	"140"
