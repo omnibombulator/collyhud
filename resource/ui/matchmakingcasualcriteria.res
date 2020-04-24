@@ -56,10 +56,10 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
-			"xpos"			"rs1-49"
-			"ypos"			"49"
+			"xpos"			"rs1-83"
+			"ypos"			"4"
 			"zpos"			"100"
-			"wide"			"15"
+			"wide"			"20"
 			"tall"			"o1"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -83,8 +83,8 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"2"
-				"ypos"			"2"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"11"
 				"tall"			"11"
@@ -92,6 +92,7 @@
 				"enabled"		"1"
 				"image"			"button_load"
 				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
 			}
 		}
 
@@ -99,10 +100,10 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
-			"xpos"			"rs1-29"
-			"ypos"			"49"
+			"xpos"			"rs1-59"
+			"ypos"			"4"
 			"zpos"			"100"
-			"wide"			"15"
+			"wide"			"20"
 			"tall"			"o1"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -126,8 +127,8 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"2"
-				"ypos"			"2"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"11"
 				"tall"			"11"
@@ -135,6 +136,7 @@
 				"enabled"		"1"
 				"image"			"button_save"
 				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
 			}
 		}
 
@@ -149,7 +151,7 @@
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"?"
@@ -186,11 +188,11 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"SelectedCount"
-			"xpos"		"4"
-			"ypos"		"r20"
+			"xpos"		"0"
+			"ypos"		"4"
 			"zpos"		"0"
-			"wide"		"0"
-			"tall"		"16"
+			"wide"		"100"
+			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
@@ -199,6 +201,8 @@
 		
 			"mouseinputenabled"	"1"
 		}
+		
+		
 
 		"QueueEstimation"
 		{
@@ -226,9 +230,9 @@
 			"ControlName"	"CScrollableList"
 			"fieldName"		"GameModesList"
 			"xpos"			"0"
-			"ypos"			"24"
+			"ypos"			"28"
 			"wide"			"f0"
-			"tall"			"200"
+			"tall"			"f32"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"

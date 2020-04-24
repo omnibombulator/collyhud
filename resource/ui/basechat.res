@@ -53,7 +53,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"	 		"240"
-		"wide_minmode"	"0"
+		"wide_minmode"	"240"
 		"tall"			"75"
 		"wrap"			"1"
 		"autoResize"	"1"

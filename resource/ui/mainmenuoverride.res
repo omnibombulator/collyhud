@@ -1,8 +1,7 @@
-
-
-
 //thanks omni i stole this from u
+//no problem bro
 #base "../../resource/extras/preload.res"
+//#base "../../resource/extras/MMReload.res"
 
 
 "Resource/UI/MainMenuOverride.res"
@@ -360,7 +359,7 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"noborder"
+		"border"		"EconItemBorder"
 		
 		"TipSubLabel"
 		{
@@ -2397,7 +2396,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"labeltext" "QUIT"
-		"command" "engine quit"
+		"command" "quit"
 		"proportionaltoparent"	"1"
 		
 		"fgcolor_override"		"245 245 245 60"
@@ -2426,6 +2425,65 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image" "replay/thumbnails/softicons/quit"
+		}	
+		
+		"pin_to_sibling" "FriendsContainer"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "0"
+		
+	}
+	"DisconnectButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"DisconnectButton"
+		"xpos"			"4"
+		"ypos"			"-116"
+		"wide"			"54"
+		"tall"			"54"
+		"zpos"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"4"
+		"textinsety"	"-6"
+		"use_proportional_insets" "1"
+		"font"			"product8"
+		"textAlignment"	"south-west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"labeltext" "DISCONNECT"
+		"command" "engine disconnect"
+		"proportionaltoparent"	"1"
+		
+		"fgcolor_override"		"245 245 245 60"
+		"defaultfgcolor_override"		"245 245 245 60"
+		"armedfgcolor_override"		"245 245 245 240"
+		"armedbgcolor_override"		"255 255 255 16"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+			
+		"paintbackground"	"1"
+				
+		"image_drawcolor"	"245 245 245 60"
+		"image_armedcolor"	"245 245 245 200"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"11+1"
+			"proportionaltoparent"	"1"
+			"zpos"			"1"
+			"wide"			"28"
+			"tall"			"28"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image" "replay/thumbnails/softicons/disconnect"
 		}	
 		
 		"pin_to_sibling" "FriendsContainer"

@@ -97,14 +97,14 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"cs-0.5"
 		"zpos"			"10000"
 		"wide"			"24"
 		"tall"			"74"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
-		"labelText"		">"
+		"labelText"		"X"
 		"textinsetx"		"1000"
 		"textinsety"		"1000"
 		"textAlignment"	"center"
@@ -124,7 +124,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"4"
+			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"proportionaltoparent"			"1"
 			"zpos"			"1"
@@ -133,8 +133,39 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"replay/thumbnails/softicons/forward"
+			"image"			"replay/thumbnails/softicons/x"
 		}
+	}
+	
+	"ReturnButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ReturnButton"
+		"xpos"			"0"
+
+		if_left
+		{
+			"xpos"	"0"
+			"labelText"		">"
+		}
+
+		"ypos"			"0"
+		"zpos"			"10001"
+		"wide"			"34"
+		"tall"			"74"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"command"		"nav_to"
+		"labelText"		"<"
+		"textinsetx"	"22"
+
+		"textAlignment"	"west"
+		"font"			"product22"
+
+		"armedBgColor_override"		"collyhuddarkgray"
+		"defaultBgColor_override"	"collyhuddarkgray"
+
+		"armedFgColor_override"	"Orange"
 	}
 
 	

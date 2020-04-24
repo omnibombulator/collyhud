@@ -5,11 +5,11 @@
 	"CasualCriteria"
 	{
 		"fieldName"		"CasualCriteria"
-		"xpos"			"0"
-		"ypos"			"r260"
+		"xpos"			"r0"
+		"ypos"			"rs1"
 		"zpos"			"1002"
-		"wide"			"f0"
-		"tall"			"f220"
+		"wide"			"f20"
+		"tall"			"f250"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -48,38 +48,21 @@
 	{
 		"ControlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"28"
-		"ypos"			"4"
+		"xpos"			"24"
+		"ypos"			"0"
 		"zpos"			"1003"
-		"wide"			"f32"
-		"tall"			"f32"
+		"wide"			"f28"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-	}
-
-	"ToolTipButtonHack"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ToolTipButtonHack"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
-		"zpos"			"1004"
-		"wide"			"f20"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
 	}
 
 	"QueueButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"r58"
-		"ypos"			"r24"
+		"xpos"			"rs1-4"
+		"ypos"			"4"
 		"zpos"			"1004"
 		"wide"			"55"
 		"tall"			"20"
@@ -103,5 +86,28 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"softgreen160"
+	}
+
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1005"
+		"wide"			"55"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"	
+		"showtooltipswhenmousedisabled"	"1"
+		"proportionaltoparent" "1"
+		"border"		"noborder"
+		"bgcolor_override"	"0 0 0 165"
+		
+		"pin_to_sibling" "QueueButton"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
 	}
 }

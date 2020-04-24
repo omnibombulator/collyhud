@@ -9,7 +9,7 @@
 		"ypos"			"r74"
 		"zpos"			"1001"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"74"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -26,7 +26,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"	"west"
-		"font"			"procutbold14"
+		"font"			"productbold14"
 		"fgcolor_override"	"tanlight120"
 		
 		"mouseinputenabled"	"0"

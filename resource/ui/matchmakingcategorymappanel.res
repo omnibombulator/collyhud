@@ -52,7 +52,7 @@
 		"mouseinputenabled"	"0"
 	}
 	//"GrayBar"
-//	{
+	//{
 	//	"ControlName"		"EditablePanel"
 	//	"fieldName"		"GrayBar"
 	//	"xpos"		"0"
@@ -61,7 +61,7 @@
 	//	"proportionaltoparent"	"1"
 	//	"wide"		"f0"
 	//	"tall"		"f0"
-//		"bgcolor_override"	"collyhuddarkgray"
+	//	"bgcolor_override"	"collyhuddarkgray"
 	//}
 
 	"HealthProgressBar"
