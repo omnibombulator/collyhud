@@ -46,7 +46,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"hp34"
+		"font"			"ProductBold40"
 		"fgcolor"		"236 236 236 255"
 		"xpos"			"0"
 		"ypos"			"32"
@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"hp34blur"
+		"font"			"ProductBold40blur"
 		"fgcolor"		"0 0 0 150"
 		"xpos"			"1"
 		"ypos"			"33"
@@ -80,10 +80,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"hp20"
+		"font"			"ProductBold20"
 		"fgcolor"		"216 216 216 255"
 		"xpos"			"77"
-		"ypos"			"32"
+		"ypos"			"31"
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"69"
@@ -96,10 +96,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"hp20blur"
+		"font"			"ProductBold20blur"
 		"fgcolor"		"0 0 0 150"
 		"xpos"			"77"
-		"ypos"			"33"
+		"ypos"			"32"
 		"textinsetx"			"1"
 		"zpos"			"7"
 		"wide"			"40"
@@ -113,7 +113,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"hp34"
+		"font"			"ProductBold40"
 		"fgcolor"		"236 236 236 255"
 		"xpos"			"24"
 		"ypos"			"32"
@@ -130,7 +130,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"hp34blur"
+		"font"			"ProductBold40blur"
 		"fgcolor"		"0 0 0 150"
 		"xpos"			"25"
 		"ypos"			"33"

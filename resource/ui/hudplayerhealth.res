@@ -73,7 +73,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HP34"
+		"font"			"ProductBold40"
 		"fgcolor"		"236 236 236 255"
 	}
 	"PlayerStatusHealthValueMainShadowHidden"
@@ -89,7 +89,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HP34blur"
+		"font"			"ProductBold40blur"
 		"fgcolor"		"0 0 0 150"
 	}
 

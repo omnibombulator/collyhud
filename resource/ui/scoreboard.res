@@ -2,32 +2,32 @@
 {
 	"scores"
 	{
-		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"		"scoreinfo"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"medal_width"								"0"
-		"avatar_width"								"65"
-		"spacer"									"4"
-		"name_width"								"25"
-		"nemesis_width"								"15"
-		"class_width"								"24"
-		"score_width"								"20"
-		"ping_width"								"25"
-		"killstreak_width"							"12"
-		"killstreak_image_width" 					"12"
+		"ControlName"				"CTFClientScoreBoardDialog"
+		"fieldName"					"scoreinfo"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"480"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"medal_width"				"0"
+		"avatar_width"				"65"
+		"spacer"					"4"
+		"name_width"				"25"
+		"nemesis_width"				"15"
+		"class_width"				"24"
+		"score_width"				"20"
+		"ping_width"				"25"
+		"killstreak_width"			"12"
+		"killstreak_image_width"	"12"
 	}
 
 	"BlurBG"
 	{
-		"ControlName"		"ctfImagePanel"
+		"ControlName"	"ctfImagePanel"
 		"fieldName"		"BlurBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -44,7 +44,7 @@
 	}
 	"BlurBGtohideretardshit"
 	{
-		"ControlName"		"ctfImagePanel"
+		"ControlName"	"ctfImagePanel"
 		"fieldName"		"BlurBGtohideretardshit"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -61,7 +61,7 @@
 	}
 	"BlurBGOverlay"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BlurBGOverlay"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -74,11 +74,11 @@
 		"border"		"noborder"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"			"0 0 0 15"
+		"fillcolor"		"0 0 0 15"
 	}
 	"BlurBGOverlayretard"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BlurBGOverlayretard"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -91,18 +91,18 @@
 		"border"		"noborder"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"			"0 0 0 15"
+		"fillcolor"		"0 0 0 15"
 	}
 	"BlueTeamBG"
 	{
-		"ControlName"		"ctfImagePanel"
+		"ControlName"	"ctfImagePanel"
 		"fieldName"		"BlueTeamBG"
 		"xpos"			"c-266"
 		"ypos"			"c-70"
-		"ypos_minmode"			"c-124"
+		"ypos_minmode"	"c-124"
 		"wide"			"254"
 		"tall"			"143"
-		"tall_minmode"			"250"
+		"tall_minmode"	"250"
 		"alpha"			"255"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -113,7 +113,11 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"wide"			"532"
+			"ypos_minmode"	"c-70"
+			"tall"			"160"
+			"tall_minmode"	"160"
+			"visible"		"1"
 		}
 	}
 	
@@ -148,7 +152,7 @@
 		"xpos"			"c-266"
 		"ypos"			"c-54"
 		"ypos"			"c-108"
-		"ypos_minmode"			"c-162"
+		"ypos_minmode"	"c-162"
 		"wide"			"254"
 		"tall"			"18"
 		"zpos"			"11"
@@ -162,7 +166,11 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"ypos"			"c-42"
+			"ypos_minmode"	"c-42"
+			"wide"			"532"
+			"tall"			"2"
+			"visible"		"1"
 		}
 	}
 	"BluePlayerGap"
@@ -700,7 +708,7 @@
 		"fieldName"		"BlueTeamPlayerLineCover"
 		"xpos"			"c-262"
 		"ypos"			"c-42"
-		"ypos_minmode"			"c-96"
+		"ypos_minmode"	"c-96"
 		"wide"			"246"
 		"tall"			"1"
 		"zpos"			"12"
@@ -709,12 +717,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"			"250 250 250 0"
+		"fillcolor"		"250 250 250 0"
 		"border"		"LightWhiteLine"
 
 		if_mvm
 		{
-			"visible"		"0"
+			"wide"			"524"
+			"ypos_minmode"	"c-42"
+			"visible"		"1"
 		}
 	}
 	"RedTeamPlayerLineCover"
@@ -765,42 +775,45 @@
 	}
 	"RedTeamBorder"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"RedTeamBorder"
 		"xpos"			"c12"
 		"ypos"			"c-70"
-		"ypos_minmode"			"c-124"
+		"ypos_minmode"	"c-124"
 		"wide"			"254"
 		"tall"			"2"
 		"zpos"			"21"
 		"alpha"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"border"			"noborder"
+		"border"		"noborder"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"softred"
 
 		if_mvm
 		{
-			"visible"		"0"
+			"xpos"			"c-266"
+			"ypos_minmode"	"c-70"
+			"wide"			"532"
+			"visible"		"1"
 		}
 	}
 
 	"MainBGBlue"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBGBlue"
 		"xpos"			"c-266"
 		"ypos"			"r265"
-		"ypos_minmode"			"r319"
+		"ypos_minmode"	"r319"
 		"zpos"			"-2"
 		"wide"			"250"
 		"tall"			"111"
-		"tall_minmode"			"217"
+		"tall_minmode"	"217"
 		"autoResize"	"0"
 		"alpha"			"255"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -808,25 +821,25 @@
 
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"0"
+			"ypos"		"0"
+			"tall"		"0"
 		}
 	}
 
 	"MainBGRed"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBGRed"
 		"xpos"			"c2"
 		"ypos"			"r265"
-		"ypos_minmode"			"r325"
+		"ypos_minmode"	"r325"
 		"zpos"			"-2"
 		"wide"			"250"
 		"tall"			"111"
-		"tall_minmode"			"217"
+		"tall_minmode"	"217"
 		"autoResize"	"0"
 		"alpha"			"255"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -834,15 +847,15 @@
 
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"0"
+			"ypos"		"0"
+			"tall"		"0"
 		}
 	}
 
 
 	"MainBGAll"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBGAll"
 		"xpos"			"c-150"
 		"ypos"			"6"
@@ -851,7 +864,7 @@
 		"tall"			"34"
 		"autoResize"	"0"
 		"alpha"			"255"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -861,28 +874,30 @@
 
 	"BlueTeamLabelReal"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabelReal"
-		"font"			"productbold10"
-		"fgcolor"		"tanlight"
-		"labelText"		"%blueteamname%"
-		"textAlignment"		"west"
-		"xpos"			"c-259"
+		"ControlName"			"CExLabel"
+		"fieldName"				"BlueTeamLabelReal"
+		"font"					"productbold10"
+		"fgcolor"				"tanlight"
+		"labelText"				"%blueteamname%"
+		"textAlignment"			"west"
+		"xpos"					"c-259"
 		"textinsetx"			"0"
-		"ypos"			"c-67"
+		"ypos"					"c-67"
 		"ypos_minmode"			"c-121"
-		"wide"			"0"
-		"auto_wide_tocontents"			"1"
-		"border"			"noborder"
-		"tall"			"16"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"					"0"
+		"auto_wide_tocontents"	"1"
+		"border"				"noborder"
+		"tall"					"16"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
 
 		if_mvm
 		{
-			"visible"		"0"
+			"labelText"			"%redteamname%"
+			"ypos_minmode"		"c-67"
+			"visible"			"1"
 		}
 	}
 	
@@ -1044,12 +1059,12 @@
 	}
 	"ServerLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ServerLabel"
 		"labelText"		"%server%"
 		"font"			"productsans8"
 		"fgcolor"		"tanlight"
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"xpos"			"6"
 		"ypos"			"r14"
 		"zpos"			"3"
@@ -1062,7 +1077,7 @@
 
 		if_mvm
 		{
-			"ypos"			"9999"
+			"ypos"		"999"
 		}
 	}
 
@@ -1073,7 +1088,7 @@
 		"font"			"regular11"
 		"fgcolor"		"tanlight"
 		"labelText"		"%mapname%"
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"xpos"			"6"
 		"ypos"			"r28"
 		"zpos"			"3"
@@ -1086,121 +1101,124 @@
 	}
 	"ServerTimeLeft"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerTimeLeft"
-		"labelText"		"%servertime%"
-		"font"			"product8"
-		"fgcolor"			"TANLIGHT120"
-		"border"		"blurborder"
-		"textAlignment"		"east"
-		"auto_wide_tocontents" "1"
-		"xpos"			"86"
+		"ControlName"			"CExLabel"
+		"fieldName"				"ServerTimeLeft"
+		"labelText"				"%servertime%"
+		"font"					"product8"
+		"fgcolor"				"TANLIGHT120"
+		"border"				"blurborder"
+		"textAlignment"			"east"
+		"auto_wide_tocontents"	"1"
+		"xpos"					"86"
 		"textinsetx"			"14"
 		"textinsety"			"0"
-		"ypos"			"6"
-		"zpos"			"4"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"ypos"					"6"
+		"zpos"					"4"
+		"tall"					"20"
+		"autoResize"			"0"
+		"pinCorner"				"0"
 
 		if_mvm
 		{
-			"ypos"			"9999"
+			"ypos"				"999"
 		}
 	}
 	"ServerTimeLeftLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"ServerTimeLeftLabel"
-		"labelText"		"SERVER MAP TIME LEFT:"
-		"font"			"productbold8"
+		"fieldName"			"ServerTimeLeftLabel"
+		"labelText"			"SERVER MAP TIME LEFT:"
+		"font"				"productbold8"
 		"fgcolor"			"245 245 245 235"
-		"border"		"blurborder"
+		"border"			"blurborder"
 		"textAlignment"		"WEST"
-		"wide" "82"
-		"xpos"			"6"
-		"textinsetx"			"14"
-		"textinsety"			"0"
-		"ypos"			"6"
-		"zpos"			"4"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"wide" 				"82"
+		"xpos"				"6"
+		"textinsetx"		"14"
+		"textinsety"		"0"
+		"ypos"				"6"
+		"zpos"				"4"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
 
 		if_mvm
 		{
-			"ypos"			"9999"
+			"ypos"			"999"
 		}
 	}
 	"sPECLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"sPECLabel"
-		"labelText"		"SPECTATORS:"
-		"font"			"productbold8"
+		"fieldName"			"sPECLabel"
+		"labelText"			"SPECTATORS:"
+		"font"				"productbold8"
 		"fgcolor"			"245 245 245 235"
-		"border"		"blurborder"
+		"border"			"blurborder"
 		"textAlignment"		"WEST"
-		"wide" "54"
-		"xpos"			"6"
-		"textinsetx"			"14"
-		"textinsety"			"0"
-		"ypos"			"30"
-		"zpos"			"4"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"wide" 				"54"
+		"xpos"				"6"
+		"textinsetx"		"14"
+		"textinsety"		"0"
+		"ypos"				"30"
+		"zpos"				"4"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
 
 		if_mvm
 		{
-			"ypos"			"9999"
+			"ypos"			"999"
 		}
 	}
 	
 	"Spectators"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Spectators"
-		"labelText"		"%spectators%"
-		"auto_wide_tocontents" "1"
-		"textinsetx"		"12"
-		"zpos"			"5"
-		"font"			"product8"
-		"fgcolor"			"TANLIGHT120"
-		"border"		"blurborder"
-		"textAlignment"		"east"
-		"auto_wide_tocontents" "1"
-		"xpos"			"54"
-		"tall"			"20"
-		"ypos"			"30"
+		"ControlName"			"CExLabel"
+		"fieldName"				"Spectators"
+		"labelText"				"%spectators%"
+		"auto_wide_tocontents" 	"1"
+		"textinsetx"			"12"
+		"zpos"					"5"
+		"font"					"product8"
+		"fgcolor"				"TANLIGHT120"
+		"border"				"blurborder"
+		"textAlignment"			"east"
+		"auto_wide_tocontents" 	"1"
+		"xpos"					"54"
+		"tall"					"20"
+		"ypos"					"30"
 		"textinsetx"			"14"
 		"textinsety"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"eastwrap"		"0"
-		"wrap"		"0"
-		"enabled"		"1"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"eastwrap"				"0"
+		"wrap"					"0"
+		"enabled"				"1"
 
-		
+		if_mvm
+		{
+			"visible"			"0"
+		}
 	}
 	"BluePlayerList"
 	{
-		"ControlName"	"SectionedListPanel"
-		"fieldName"		"BluePlayerList"
-		"xpos"			"c-264"
-		"ypos"			"c-49"
-		"ypos_minmode"			"c-103"
-		"zpos"			"10"
-		"wide"			"250"
-		"tall"			"117"
-		"tall_minmode"			"224"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"autoresize"	"3"
-		"linespacing"	"18"
+		"ControlName"		"SectionedListPanel"
+		"fieldName"			"BluePlayerList"
+		"xpos"				"c-264"
+		"ypos"				"c-49"
+		"ypos_minmode"		"c-103"
+		"zpos"				"10"
+		"wide"				"250"
+		"tall"				"117"
+		"tall_minmode"		"224"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"autoresize"		"3"
+		"linespacing"		"18"
 		"paintbackground"	"0"
 		//"show_columns"	"1"
 
@@ -1364,7 +1382,7 @@
 
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	
@@ -1644,7 +1662,7 @@
 
 			if_mvm
 			{
-				"visible"		"0"
+				"visible"		"1"
 			}
 		}
 		"WhiteLine"
@@ -1666,7 +1684,7 @@
 
 			if_mvm
 			{
-				"visible"		"0"
+				"visible"		"1"
 			}
 		}
 

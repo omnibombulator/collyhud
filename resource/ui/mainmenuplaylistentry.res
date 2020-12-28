@@ -100,7 +100,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ModeButton"
 		"xpos"			"0"
-		"ypos"			"50"
+		"ypos"			"rs1"
 		"zpos"			"6"
 		"wide"			"120"
 		"tall"			"16"
@@ -118,7 +118,7 @@
 		"proportionaltoparent" "1"
 		"actionsignallevel"	"2"
 
-		//"border_default"	"MainMenuMiniButtonDefault"
+		//"border_default"		"MainMenuMiniButtonDefault"
 		//"border_armed"		"MainMenuMiniButtonArmed"
 		"paintbackground"	"1"
 

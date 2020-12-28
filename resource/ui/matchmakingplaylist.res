@@ -18,11 +18,11 @@
 	{
 		"ControlName"	"CEventPlayListEntry"
 		"fieldName"		"EventEntry"
-		"xpos"			"0"
-		"ypos"			"3"
+		"xpos"			"r620"
+		"ypos"			"4"
 		"zpos"			"3"
-		"tall"			"45"
-		"wide"			"f0"
+		"tall"			"66"
+		"wide"			"120"
 		"proportionaltoparent"	"1"
 
 		"button_command"	"play_event"
@@ -45,11 +45,6 @@
 		"button_command"	"play_casual"
 		"desc_token"		"#MMenu_PlayList_Casual_Desc"
 		"matchgroup"		"7" // k_eTFMatchGroup_Casual_12v12
-
-		if_event
-		{
-			"ypos"			"53"
-		}
 	}
 
 	"CompetitiveEntry"
@@ -68,11 +63,6 @@
 		"button_command"	"play_competitive"
 		"desc_token"		"#MMenu_PlayList_Competitive_Desc"
 		"matchgroup"		"2" // k_eTFMatchGroup_Ladder_6v6
-
-		if_event
-		{
-			"ypos"			"103"
-		}
 	}
 
 	"MvMEntry"
@@ -91,11 +81,6 @@
 		"button_command"	"play_mvm"
 		"desc_token"		"#MMenu_PlayList_MvM_Desc"
 		"matchgroup"		"1" // k_eTFMatchGroup_MvM_MannUp
-
-		if_event
-		{
-			"ypos"			"153"
-		}
 	}
 
 	"ServerBrowserEntry"
@@ -113,11 +98,6 @@
 		"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
 		"button_command"	"play_community"
 		"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
-
-		if_event
-		{
-			"ypos"			"203"
-		}
 	}
 
 	"TrainingEntry"
@@ -135,11 +115,6 @@
 		"button_token"		"#MMenu_PlayList_Training_Button"
 		"button_command"	"play_training"
 		"desc_token"		"#MMenu_PlayList_Training_Desc"
-
-		if_event
-		{
-			"ypos"			"253"
-		}
 	}
 
 	"CreateServerEntry"
@@ -157,11 +132,6 @@
 		"button_token"		"#MMenu_PlayList_CreateServer_Button"
 		"button_command"	"create_server"
 		"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
-
-		if_event
-		{
-			"ypos"			"303"
-		}
 	}
 
 	"ScrollBar"

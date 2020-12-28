@@ -24,6 +24,18 @@
 		"spacer"		"2"
 		"name_width"	"57"
 		"horiz_inset"	"2"
+		
+		if_mvm
+		{
+			"xpos"					"0"
+			"ypos"					"0"
+			"wide"					"f0"
+			"tall"					"480"
+
+			"team1_player_base_y"			"72"
+			"team2_player_base_y"			"72"
+			"team2_player_delta_x"			"24"
+		}
 
 
 		"ModeImage"
@@ -188,9 +200,9 @@
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
 				
-				if_aids
+				if_mvm
 				{
-					"visible"		"1"
+					"visible"		"0"
 				}
 				
 				if_competitive
@@ -271,7 +283,7 @@
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
 				
-				if_aids
+				if_mvm
 				{	
 					"visible"		"0"
 				}
@@ -355,7 +367,7 @@
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
 		
-		if_aids
+		if_mvm
 		{
 			"visible"		"0"
 		}
@@ -395,6 +407,11 @@
 		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"4"	
 		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+		
 		if_readymode
 		{
 			"xpos"			"200"
@@ -419,6 +436,11 @@
 		"labelText"		"%bluenamelabel%"
 		"textAlignment"		"west"
 		"proportionaltoparent"	"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 		
 
 		if_readymode
@@ -449,6 +471,11 @@
 		"use_proportional_insets"	"1"
 		"bgcolor_override"		"0 0 0 165"
 		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+		
 		if_readymode
 		{
 			"xpos"			"251"
@@ -470,6 +497,11 @@
 		"enabled"		"1"
 		"bgcolor"		"softblue"
 		"bgcolor_override"		"softblue"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 		
 		if_readymode
 		{
@@ -497,6 +529,11 @@
 		"use_proportional_insets"	"1"
 		"labelText"		"%rednamelabel%"
 		"textAlignment"		"east"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	
 		if_readymode
 		{
@@ -525,7 +562,11 @@
 		"use_proportional_insets"	"1"
 		"bgcolor"		"0 0 0 165"
 		"bgcolor_override"		"0 0 0 165"
-	
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 
 		if_readymode
 		{
@@ -548,6 +589,11 @@
 		"enabled"		"1"
 		"bgcolor"		"softred"
 		"bgcolor_override"		"softred"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 		
 		if_readymode
 		{

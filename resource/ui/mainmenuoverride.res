@@ -1,7 +1,7 @@
 //thanks omni i stole this from u
 //no problem bro
 #base "../../resource/extras/preload.res"
-//#base "../../resource/extras/MMReload.res"
+#base "../../resource/extras/MMReload.res"
 
 
 "Resource/UI/MainMenuOverride.res"
@@ -298,8 +298,8 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"c-290"
-		"ypos"			"94"
+		"xpos"			"0"
+		"ypos"			"6"
 		"zpos"			"-99"
 		"wide"			"260"
 		"tall"			"100"
@@ -307,21 +307,25 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 		"wrap"			"1"
-		"textinsetx"	"40"
-		"textinsety"	"10"
+		"textinsetx"	"2"
+		"textinsety"	"0"
 
 		"font"			"HudFontSmallestBold"
 		"fgcolor_override"	"TanLight"
 		"labelText"		"#TF_MM_NoGC_Rank"
-		"textAlignment"	"north-west"
+		"textAlignment"	"south-west"
 		"use_proportional_insets"	"1"
+		
+		"pin_to_sibling" "ServerBrowserButton"
+		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
 	}
 
 	"NoGCImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"c-285"
+		"xpos"			"999"
 		"ypos"			"107"
 		"zpos"			"-99"
 		"wide"			"30"

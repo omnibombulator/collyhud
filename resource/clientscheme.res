@@ -8049,6 +8049,20 @@ Scheme
 			}
 		}
 		
+		LightWhiteLeft
+		{
+			"inset" "0 0 0 0"
+			
+			Left
+			{
+				"1"
+				{
+					"color" "255 255 255 20"
+					"offset" "0 1"
+				}
+			}
+		}
+		
 		
 		WrenchLight
 		{

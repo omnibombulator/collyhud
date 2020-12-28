@@ -66,6 +66,11 @@
 		"enabled"		"1"
 		
 		"bgcolor_override"		"softblue"
+		
+		if_mvm
+		{
+			"visible"	"0"
+		}
 	}
 	
 	"RedScoreBG"
@@ -83,6 +88,11 @@
 		"enabled"		"1"
 
 		"bgcolor_override"		"softred"
+		
+		if_mvm
+		{
+			"visible"	"0"
+		}
 	}
 	
 	"BlueScore"

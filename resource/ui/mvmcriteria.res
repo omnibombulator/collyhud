@@ -1,219 +1,14 @@
 "Resource/UI/MvMCriteria.res"
 {
-	"MannVsMachineGroupBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MannVsMachineGroupBox"
-		"xpos"		"0"
-		"ypos"		"10"
-		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"350"
-		"visible"	"1"
-		"enabled"	"1"
-		"border"	"MainMenuHighlightBorder"
-		
-		"MannVsMachineLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"MannVsMachineLabel"
-			"xpos"			"15"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"370"
-			"tall"			"25"
-			"labelText"		"#TF_MvM_HeaderMannVsMachine"
-			"font"			"HudFontMediumBold"
-			//"fgcolor_override"	"89 81 71 255"
-			"fgcolor_override"	"201 79 57 255"
-			"textAlignment"	"west"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}
-		
-		"MannVsMachineExplanation"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"MannVsMachineExplanation"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
-			"labelText"		"#TF_MvM_MannVsMachineExplaination"
-			"textAlignment"	"north-west"
-			"xpos"			"15"
-			"ypos"			"30"
-			"zpos"			"0"
-			"wide"			"400"
-			"tall"			"40"
-			"wrap" "1"
-		}
-
-		"ModeImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"ModeImage"
-			"xpos"			"10"
-			"ypos"			"55"
-			"zpos"			"0"
-			"wide"			"380"
-			"tall"			"190"
-			"visible"		"1"
-			"enabled"		"1"
-			"mouseinputenabled" "0"
-			"image"			"illustrations/gamemode_mvm"
-			"scaleImage"	"1"
-		}
-	}
-
-	"MannUpGroupBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MannUpGroupBox"
-		"xpos"		"0"
-		"ypos"		"245"
-		"zpos"		"100"
-		"wide"		"200"
-		"tall"		"110"
-		"visible"	"1"
-		"enabled"	"1"
-
-		"PlayNowButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"PlayNowButton"
-			"xpos"			"cs-0.5"
-			"ypos"			"0"
-			"zpos"			"20"
-			"wide"			"180"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"#TF_MvM_MannUp"
-			"font"			"HudFontMediumBold"
-			"textAlignment"	"center"
-			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"mannup"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-
-			"NavUp"			"Sheet"
-			"NavDown"		"BackButton"
-			"NavLeft"		"Sheet"
-			"NavRight"		"PracticeButton"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-		}
-
-		"PlayForBraggingRightsExplanation"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"PlayForBraggingRightsExplanation"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
-			"labelText"		"#TF_MvM_BraggingRightsExplaination"
-			"textAlignment"	"north-west"
-			"xpos"			"15"
-			"ypos"			"50"
-			"zpos"			"0"
-			"wide"			"170"
-			"tall"			"60"
-			"wrap" "1"
-		}
-	}
-
-	"PracticeGroupBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PracticeGroupBox"
-		"xpos"		"200"
-		"ypos"		"245"
-		"zpos"		"100"
-		"wide"		"200"
-		"tall"		"110"
-		"visible"	"1"
-		"enabled"	"1"
-		"proportionaltoparent"	"1"
-
-		"PracticeButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"PracticeButton"
-			"xpos"			"cs-0.5"
-			"ypos"			"0"
-			"zpos"			"20"
-			"wide"			"180"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"#TF_MvM_BootCamp"
-			"font"			"HudFontMediumBold"
-			"textAlignment"	"center"
-			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"practice"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-
-			"NavUp"			"Sheet"
-			"NavDown"		"LearnMoreButton"
-			"NavLeft"		"PlayNowButton"
-			"NavRight"		"StartPartyButton"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-		}
-
-		"PlayOnCommunityServerExplanation"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"PlayOnCommunityServerExplanation"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
-			"labelText"		"#TF_MvM_PracticeExplaination"
-			"textAlignment"	"north-west"
-			"xpos"			"15"
-			"ypos"			"50"
-			"zpos"			"0"
-			"wide"			"170"
-			"tall"			"60"
-			"wrap" "1"
-		}
-	}
-
 	"MvMTourOfDutyGroupBox"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMTourOfDutyGroupBox"
-		"xpos"		"0"
-		"ypos"		"10"
-		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"225"
+		"xpos"			"0"
+		"ypos"			"24"
+		"zpos"			"-1"
+		"wide"			"380"
+		"tall"			"201"
 
 		"NavToRelay"	"TourlistGroupBox"
 		"NavUp"			"MvMSelectChallengeGroupBox"
@@ -232,6 +27,7 @@
 			"zpos"			"0"
 			"wide"			"400"
 			"tall"			"26"
+			"visible"		"0"
 			"fgcolor_override"	"250 114 45 255"
 		}
 
@@ -247,6 +43,7 @@
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"24"
+			"visible"		"0"
 			"fgcolor_override"	"250 114 45 255"
 		}
 
@@ -262,6 +59,7 @@
 			"zpos"			"0"
 			"wide"			"80"
 			"tall"			"24"
+			"visible"		"0"
 			"fgcolor_override"	"250 114 45 255"
 		}
 
@@ -277,6 +75,7 @@
 			"zpos"			"0"
 			"wide"			"80"
 			"tall"			"26"
+			"visible"		"0"
 			"fgcolor_override"	"250 114 45 255"
 		}
 
@@ -285,14 +84,14 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"TourlistGroupBox"
 			"xpos"			"0"
-			"ypos"			"28"
+			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"400"
-			"tall"			"197"
+			"wide"			"380"
+			"tall"			"f8"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"0 0 0 0"
+			"border"		"noborder"
 
 			"NavToRelay"	"TourList"
 
@@ -315,7 +114,7 @@
 				"fieldName"		"TourList"
 				"font"			"HudFontSmall"
 				"xpos"			"0"
-				"ypos"			"5"
+				"ypos"			"4"
 				"zpos"			"0"
 				"wide"			"400"
 				"tall"			"197"
@@ -330,7 +129,7 @@
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_MVM_Tour_ExpertDifficulty_Warning"
 			"xpos"		"30"
-			"ypos"		"100"
+			"ypos"		"999"
 			"zpos"			"2"
 			"wide"		"340"
 			"tall"		"120"
@@ -338,38 +137,39 @@
 			"visible"	"1"
 			"enabled"	"1"
 			"wrap"		"1"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"250 114 45 0"
 		}
 	}
 
 	"MannUpTourLootDescriptionBox"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MannUpTourLootDescriptionBox"
-		"xpos"		"0"
-		"ypos"		"240"
-		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"120"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"MannUpTourLootDescriptionBox"
+		"xpos"					"384"
+		"ypos"					"28"
+		"zpos"					"-1"
+		"wide"					"215"
+		"tall"					"197"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"		"0 0 0 0"
+		"border"				"noborder"
 
 		"TourLootImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"TourLootImage"
-			"xpos"			"280"
-			"ypos"			"6"
+			"xpos"			"cs-0.5"
+			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"110"
-			"tall"			"110"
+			"wide"			"o1"
+			"tall"			"p1"
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
 			"image"			"pve/mvm_loot_image"
 			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
 		}
 
 		"ToorLootTitle"
@@ -384,21 +184,25 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"30"
+			"visible"		"0"
 		}
 
 		"ToorLootDetailLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ToorLootDetailLabel"
-			"font"			"HudFontSmall"
+			"font"			"product16"
 			"labelText"		"%tour_loot_detail%"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"wrap"			"1"
-			"xpos"			"10"
-			"ypos"			"30"
+			"centerwrap"	"1"
+			"xpos"			"cs-0.5"
+			"ypos"			"110"
 			"zpos"			"0"
-			"wide"			"280"
-			"tall"			"50"
+			"wide"			"f12"
+			"tall"			"80"
+			"proportionaltoparent"	"1"
+			"visible"		"0"
 		}
 	}
 
@@ -406,13 +210,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMEconItemsGroupBox"
-		"xpos"			"0"
-		"ypos"			"240"
+		"xpos"			"380"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"400"
-		"tall"			"120"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"wide"			"226"
+		"tall"			"225"
+		"bgcolor_override"	"0 0 0 0"
+		"border"		"NoBorder"
 
 		"NavToRelay"	"OpenHelpButton"
 		"NavUp"			"MvMTourOfDutyGroupBox"
@@ -431,21 +235,24 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"30"
+			"visible"		"0"
 		}
 
 		"MannUpTicketAd"
 		{
 			"ControlName"	"CCyclingAdContainerPanel"
 			"fieldName"		"MannUpTicketAd"
-			"xpos"			"6"
-			"ypos"			"30"
-			"zpos"			"0"
-			"wide"			"70"
+			"xpos"			"100"
+			"ypos"			"28"
+			"zpos"			"10"
+			"wide"			"116"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "1"
 			"paintborder"	"0"
+			
+			"bgcolor_override"	"0 0 0 165"
 
 			"items"
 			{
@@ -465,31 +272,37 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MannUpTicketCountLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"product24"
 			"labelText"		"%ticket_count%"
-			"textAlignment"	"north-west"
-			"fgcolor_override"	"201 79 57 255"
-			"xpos"			"15"
-			"ypos"			"24"
-			"zpos"			"2"
+			"textAlignment"	"east"
+			"fgcolor_override"	"tanlight120"
+			"xpos"			"-4"
+			"ypos"			"0"
+			"zpos"			"20"
 			"wide"			"60"
-			"tall"			"30"
+			"tall"			"28"
 			"mouseinputenabled" "0"
+			
+			"pin_to_sibling" 		"MannUpTicketAd"
+			"pin_corner_to_sibling" "PIN_TOPRIGHT" // Corner of this Element
+			"pin_to_sibling_corner" "PIN_TOPRIGHT" // Corner of Element you are pinning to
 		}
 
 		"SquadSurplusTicketAd"
 		{
 			"ControlName"	"CCyclingAdContainerPanel"
 			"fieldName"		"SquadSurplusTicketAd"
-			"xpos"			"73"
-			"ypos"			"30"
-			"zpos"			"0"
-			"wide"			"70"
+			"xpos"			"100"
+			"ypos"			"72"
+			"zpos"			"10"
+			"wide"			"116"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "1"
 			"paintborder"	"0"
+			
+			"bgcolor_override"	"0 0 0 165"
 
 			"items"
 			{
@@ -508,140 +321,124 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SquadSurplusCountLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"product24"
 			"labelText"		"%voucher_count%"
-			"textAlignment"	"north-west"
-			"fgcolor_override"	"201 79 57 255"
-			"xpos"			"82"
-			"ypos"			"24"
-			"zpos"			"2"
+			"textAlignment"	"east"
+			"fgcolor_override"	"tanlight120"
+			"xpos"			"-4"
+			"ypos"			"0"
+			"zpos"			"20"
 			"wide"			"60"
 			"tall"			"30"
 			"mouseinputenabled" "0"
+			
+			"pin_to_sibling" 		"SquadSurplusTicketAd"
+			"pin_corner_to_sibling" "PIN_TOPRIGHT" // Corner of this Element
+			"pin_to_sibling_corner" "PIN_TOPRIGHT" // Corner of Element you are pinning to
 		}
 
 		"SquadSurplusCheckButton"
 		{
 			"ControlName"		"CheckButton"
 			"fieldName"		"SquadSurplusCheckButton"
-			"xpos"		"5"
-			"ypos"		"70"
+			"xpos"		"100"
+			"ypos"		"116"
 			"zpos"		"2"
-			"wide"		"25"
-			"tall"		"25"
+			"wide"		"116"
+			"tall"		"22"
 			"font"			"HudFontSmall"
-			"labelText"		""
-		}
-
-		"ActivateSquadSurplusLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"SquadSurplusCheckLabel"
-			"font"			"HudFontSmallestBold"
-			"labelText"		"#TF_MvM_ActivateSquadSurplus"
-			"textAlignment"	"north-west"
-			"wrap"			"1"
-			"xpos"			"33"
-			"ypos"			"70"
-			"zpos"			"0"
-			"wide"			"120"
-			"tall"			"60"
+			"labelText"		"Activate Squad Surplus for this game?"
+			"wrap"		"1"
 		}
 
 		"Slot0"
 		{
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot0"
-			"xpos"			"200"
-			"ypos"			"5"
+			"xpos"			"4"
+			"ypos"			"28"
 			"zpos"			"0"
 			"wide"			"28"
-			"tall"			"200"
+			"tall"			"75"
 
 			"party_slot"	"0"
+			
+			"bgcolor_override"	"0 0 0 165"
 		}
 
 		"Slot1"
 		{
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot1"
-			"xpos"			"200+30"
-			"ypos"			"5"
+			"xpos"			"8+28"
+			"ypos"			"28"
 			"zpos"			"0"
 			"wide"			"28"
-			"tall"			"200"
+			"tall"			"75"
 
 			"party_slot"	"1"
+			
+			"bgcolor_override"	"0 0 0 165"
 		}
 
 		"Slot2"
 		{
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot2"
-			"xpos"			"200+30+30"
-			"ypos"			"5"
+			"xpos"			"12+28+28"
+			"ypos"			"28"
 			"zpos"			"0"
 			"wide"			"28"
-			"tall"			"200"
+			"tall"			"75"
 
 			"party_slot"	"2"
+			
+			"bgcolor_override"	"0 0 0 165"
 		}
 
 		"Slot3"
 		{
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot3"
-			"xpos"			"200+30+30+30"
-			"ypos"			"5"
+			"xpos"			"4"
+			"ypos"			"32+75"
 			"zpos"			"0"
 			"wide"			"28"
-			"tall"			"200"
+			"tall"			"75"
 
 			"party_slot"	"3"
+			
+			"bgcolor_override"	"0 0 0 165"
 		}
 
 		"Slot4"
 		{
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot4"
-			"xpos"			"200+30+30+30+30"
-			"ypos"			"5"
+			"xpos"			"8+28"
+			"ypos"			"32+75"
 			"zpos"			"0"
 			"wide"			"28"
-			"tall"			"200"
+			"tall"			"75"
 
 			"party_slot"	"4"
+			
+			"bgcolor_override"	"0 0 0 165"
 		}
 
 		"Slot5"
 		{
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot5"
-			"xpos"			"200+30+30+30+30+30"
-			"ypos"			"5"
+			"xpos"			"12+28+28"
+			"ypos"			"32+75"
 			"zpos"			"0"
 			"wide"			"28"
-			"tall"			"200"
+			"tall"			"75"
 
 			"party_slot"	"5"
-		}
-
-		"MissingTicketsAlertImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MissingTicketsAlertImage"
-			"xpos"			"195"
-			"ypos"			"r35"
-			"zpos"			"105"
-			"wide"			"35"
-			"tall"			"35"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_alert"
-			"scaleImage"	"1"
-			"mouseinputenabled"	"0"
-			"proportionaltoparent"	"1"
-			"drawcolor"	"255 255 255 255"
+			
+			"bgcolor_override"	"0 0 0 165"
 		}
 
 		"MissingTicketsLabel"
@@ -653,12 +450,38 @@
 			"labelText"		"#TF_Matchmaking_CantQueue_NoTicket"
 			"textAlignment"	"south-west"
 			"wrap"			"1"
-			"xpos"			"235"
-			"ypos"			"rs1-5"
+			"xpos"			"4"
+			"ypos"			"rs1"
 			"zpos"			"0"
-			"wide"			"165"
-			"tall"			"60"
+			"wide"			"92"
+			"tall"			"40"
 			"proportionaltoparent"	"1"
+			"textinsetx"	"6"
+			"textinsety"	"-6"
+			
+			"bgcolor_override"	"0 0 0 165"
+		}
+		
+		"MissingTicketsAlertImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MissingTicketsAlertImage"
+			"xpos"			"-3"
+			"ypos"			"-2"
+			"zpos"			"105"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_alert"
+			"scaleImage"	"1"
+			"mouseinputenabled"	"0"
+			"proportionaltoparent"	"1"
+			"drawcolor"	"255 255 255 255"
+			
+			"pin_to_sibling" 		"MissingTicketsLabel"
+			"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+			"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
 		}
 	}
 
@@ -666,15 +489,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMPracticeGroupBox"
-		"xpos"		"0"
-		"ypos"		"240"
+		"xpos"		"384"
+		"ypos"		"28"
 		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"120"
+		"wide"		"211"
+		"tall"		"197"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"0 0 0 0"
+		"border"			"noborder"
 
 		"NavToRelay"	"MannUpNowButton"
 		"NavUp"			"MvMEconItemsGroupBox"
@@ -685,16 +508,47 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"NoMannUpImage"
-			"xpos"			"250"
-			"ypos"			"6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"110"
-			"tall"			"110"
-			"visible"		"1"
+			"wide"			"211"
+			"tall"			"o1"
+			"visible"		"0"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
-			"image"			"pve/mvm_loot_image"
+			"image"			"mvm/mannup"
 			"scaleImage"	"1"
+		}
+		
+		"ImageBox"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"ImageBox"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"211"
+			"tall"			"177"
+			"visible"		"1"
+			
+			"proportialtoparent"	"1"
+			
+			"MannUpImage2"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"MannUpImage2"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"211"
+				"tall"			"o1"
+				"visible"		"1"
+				"enabled"		"1"
+				"mouseinputenabled" "0"
+				"image"			"mvm/mannup"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
 		}
 
 		"NoMannUpTitleLabel"
@@ -706,9 +560,10 @@
 			"textAlignment"	"west"
 			"xpos"			"10"
 			"ypos"			"5"
-			"zpos"			"0"
+			"zpos"			"-2"
 			"wide"			"200"
 			"tall"			"30"
+			"visible"		"0"
 		}
 
 		"NoMannUpDescriptionLabel"
@@ -716,24 +571,32 @@
 			"ControlName"	"Label"
 			"fieldName"		"NoMannUpDescriptionLabel"
 			"font"			"HudFontSmall"
-			"labelText"		"#TF_MvM_NoMannUpDescription"
-			"textAlignment"	"west"
+			"labelText"		"Why not Mann Up instead? For every Tour of Duty you complete on official Mann Co. game servers, you'll earn special loot and bragging rights!"
+			"textAlignment"	"south-west"
 			"wrap"			"1"
-			"xpos"			"10"
-			"ypos"			"30"
+			"xpos"			"0"
+			"ypos"			"rs1-20"
 			"zpos"			"0"
-			"wide"			"280"
-			"tall"			"50"
+			"wide"			"f0"
+			"tall"			"35"
+			
+			"textinsetx"	"6"
+			"textinsety"	"-12"
+			"use_proportional_insets"	"1"
+			
+			"proportionaltoparent"	"1"
+			
+			"bgcolor_override"	"0 0 0 250"
 		}
 
 		"MannUpNowButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MannUpNowButton"
-			"xpos"			"10"
-			"ypos"			"85"
+			"xpos"			"0"
+			"ypos"			"rs1"
 			"zpos"			"2"
-			"wide"			"120"
+			"wide"			"f0"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -748,6 +611,9 @@
 			"command" "mann_up_now"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"AllCaps"		"1"
+			
+			"proportionaltoparent"	"1"
 		}
 	}
 
@@ -756,10 +622,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMSelectChallengeGroupBox"
 		"xpos"		"0"
-		"ypos"		"10"
+		"ypos"		"24"
 		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"225"
+		"wide"		"380"
+		"tall"		"201"
 
 		"NavToRelay"	"ChallengeListGroupBox"
 		"NavRight"		"MvMTourOfDutyGroupBox"
@@ -776,6 +642,7 @@
 			"zpos"			"0"
 			"wide"			"400"
 			"tall"			"26"
+			"visible"		"0"
 			"fgcolor_override"	"250 114 45 255"
 		}
 
@@ -791,6 +658,7 @@
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"24"
+			"visible"		"0"
 			"fgcolor_override"	"250 114 45 255"
 		}
 
@@ -798,7 +666,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"TourLevelImage"
-			"xpos"			"342"
+			"xpos"			"322"
 			"ypos"			"-10"
 			"zpos"			"0"
 			"wide"			"60"
@@ -817,7 +685,7 @@
 			"font"			"HudFontMediumSmallBold"
 			"labelText"		"%tour_level%"
 			"textAlignment"	"south"
-			"xpos"			"357"
+			"xpos"			"337"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"30"
@@ -830,14 +698,14 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"ChallengeListGroupBox"
 			"xpos"			"0"
-			"ypos"			"28"
+			"ypos"			"4"
 			"zpos"			"-1"
-			"wide"			"400"
-			"tall"			"197"
+			"wide"			"380"
+			"tall"			"f8"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"0 0 0 165"
+			"border"		"NoBorder"
 
 			"NavToRelay"	"ChallengeList"
 
@@ -848,7 +716,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"200"
-				"wide"			"400"
+				"wide"			"380"
 				"tall"			"225"
 				"visible"		"0"
 				"bgcolor_override"	"128 128 128 128"
@@ -862,7 +730,7 @@
 				"xpos"			"70"
 				"ypos"			"5"
 				"zpos"			"0"
-				"wide"			"330"
+				"wide"			"310"
 				"tall"			"192"
 				"linespacing"	"12"
 			}

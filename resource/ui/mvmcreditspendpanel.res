@@ -10,8 +10,11 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"300"
-		"tall"			"15"
+		"tall"			"20"
 		"fgcolor"		"tanlight"
+		
+		
+		"bgcolor_override"		"0 0 0 80"
 	}
 		
 	"TableBackground"
@@ -19,12 +22,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TableBackground"
 		"xpos"			"0"
-		"ypos"			"14"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"190"
-		"tall"			"42"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"		"20 20 20 50"
+		"bgcolor_override"		"0 0 0 165"
 	}
 	
 	"UpgradesLabel"
@@ -33,10 +36,10 @@
 		"fieldName"		"UpgradesLabel"
 		"font"			"HudFontSmall"
 		"labelText"		"#TF_PVE_Upgrades"
-		"textAlignment" "north-west"
-		"xpos"			"10"
-		"ypos"			"15"
-		"wide"			"90"
+		"textAlignment" "west"
+		"xpos"			"6"
+		"ypos"			"20"
+		"wide"			"85"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
 	}
@@ -47,12 +50,16 @@
 		"fieldName"		"UpgradesCountLabel"
 		"font"			"HudFontSmall"
 		"labelText"		"%upgrades%"
-		"textAlignment" "north-east"
-		"xpos"			"100"
-		"ypos"			"15"
+		"textAlignment" "east"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"30"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
+		
+		"pin_to_sibling" 		"UpgradesLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_TOPRIGHT" // Corner of Element you are pinning to
 	}
 	
 	"BuyBackLabel"
@@ -61,12 +68,16 @@
 		"fieldName"		"BuyBackLabel"
 		"font"			"HudFontSmall"
 		"labelText"		"#TF_PVE_Buybacks"
-		"textAlignment" "north-west"
-		"xpos"			"10"
-		"ypos"			"27"
-		"wide"			"90"
+		"textAlignment" "west"
+		"xpos"			"0"
+		"ypos"			"-10"
+		"wide"			"85"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
+		
+		"pin_to_sibling" 		"UpgradesLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 	}
 	
 	"BuyBackCountLabel"
@@ -75,12 +86,16 @@
 		"fieldName"		"BuyBackCountLabel"
 		"font"			"HudFontSmall"
 		"labelText"		"%buybacks%"
-		"textAlignment" "north-east"
-		"xpos"			"100"
-		"ypos"			"27"
+		"textAlignment" "east"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"30"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
+		
+		"pin_to_sibling" 		"BuyBackLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_TOPRIGHT" // Corner of Element you are pinning to
 	}
 	
 	"BottleLabel"
@@ -89,12 +104,16 @@
 		"fieldName"		"BottleLabel"
 		"font"			"HudFontSmall"
 		"labelText"		"#TF_PVE_Bottles"
-		"textAlignment" "north-west"
-		"xpos"			"10"
-		"ypos"			"39"
-		"wide"			"90"
+		"textAlignment" "west"
+		"xpos"			"0"
+		"ypos"			"-10"
+		"wide"			"85"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
+		
+		"pin_to_sibling" 		"BuyBackLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 	}
 	
 	"BottleCountLabel"
@@ -103,11 +122,15 @@
 		"fieldName"		"BottleCountLabel"
 		"font"			"HudFontSmall"
 		"labelText"		"%bottles%"
-		"textAlignment" "north-east"
-		"xpos"			"100"
-		"ypos"			"39"
+		"textAlignment" "east"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"30"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
+		
+		"pin_to_sibling" 		"BottleLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_TOPRIGHT" // Corner of Element you are pinning to
 	}
 }
