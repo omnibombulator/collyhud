@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"		"CollyHudDarkGray"
+		"infocus_bgcolor_override" "CollyHudDarkGray"
+		"outoffocus_bgcolor_override" "CollyHudDarkGray"
 		
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
@@ -206,7 +206,7 @@
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"300"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 	
 		"MannCoImage"
@@ -234,7 +234,7 @@
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"proportiontoparent"	"1"
 

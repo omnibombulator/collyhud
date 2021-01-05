@@ -22,13 +22,13 @@
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
-		"titletextinsetY"	"0"
+		"titletextinsetY"	"56"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
 		
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
+		"sheetinset_bottom"				"0"
 	}
 	
 	"BackgroundHeader"
@@ -40,7 +40,7 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"120"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
@@ -54,7 +54,7 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
@@ -68,11 +68,40 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}				
+	}	
+
+	"FakeBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FakeBG"
+		"xpos"			"0"
+		"ypos"			"50"
+		"zpos"			"-1000"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"			"CollyHudDarkGray"
+		"scaleImage"	"1"
+	}
+	"FakeBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FakeBG2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-999"
+		"wide"			"f0"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"			"CollyHudDarkGray"
+		"scaleImage"	"1"
+	}	
 	
 	"Sheet"
 	{
@@ -81,7 +110,7 @@
 		"tabxindent"	"10"
 		"tabxdelta"		"3"
 		"tabxfittotext"	"1"
-		"tabheight"		"60"
+		"tabheight"		"20"
 		"yoffset"		"14"
 		"transition_time" "0"
 		
@@ -91,10 +120,10 @@
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
 			"ypos"			"32"
-			"zpos"			"5"
+			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"10"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
@@ -102,15 +131,16 @@
 		
 		"tabskv"
 		{
-			"textinsetx"		"6"
-			"textAlignment"		"center"
-			"font"				"HudFontSmallBold"
-			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
-			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			"textinsetx"				"12"
+			"textAlignment"				"center"
+			"font"						"HudFontSmallBold"
+			"selectedcolor"				"menutext"
+			"unselectedcolor"			"255 255 255 16"	
+			"defaultBgColor_override"	"0 0 0 165"
+			"armedBgColor_override"		"0 0 0 165"
+			"paintbackground"	"1"
+			"activeborder_override"		"noborder"
+			"normalborder_override" 	"noborder"
 		}
 	}
 	
@@ -146,7 +176,7 @@
 		"xpos"				"0"
 		"ypos"				"30"
 		"wide"				"f0"
-		"tall"				"390"
+		"tall"				"f0"
 		"zpos"				"500"
 		"visible"			"0"
 	}

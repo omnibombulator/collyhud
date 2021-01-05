@@ -217,6 +217,11 @@
 		{
 			"visible"		"1"
 		}
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 
 	"ObjectiveStatusTimePanel"

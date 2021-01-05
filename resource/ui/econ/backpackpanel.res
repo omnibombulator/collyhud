@@ -34,7 +34,7 @@
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
 
-		"page_button_y"	"2288"
+		"page_button_y"	"378"
 		"page_button_x_delta" "3"
 		"page_button_y_delta" "3"
 		"page_button_per_row" "20"
@@ -405,31 +405,58 @@
 		"pin_to_sibling_corner" "3"
 	}
 	
+	"CancelApplyToolButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelApplyToolButton"
+		"xpos"			"4"
+		"ypos"			"0"
+		"zpos"			"20"
+		"wide"			"120"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Cancel Tool Application"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"canceltool"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"AllCaps"		"1"
+		
+		"armedBgColor_override"		"softred160"
+		
+		"pin_to_sibling" 		"ShowBaseItemsCheckboxBG"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "3"
+	}
+	
 	"mouseoveritempanel"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CItemModelPanel"
 		"fieldName"		"mouseoveritempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
-		"zpos"			"10000"
-		"wide"			"178"
-		"tall"			"1000"
+		"zpos"			"102"
+		"wide"			"300"
+		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 165"
-		"noitem_textcolor"		"110 110 110 255"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		"border"	"LightShadow"
 		
-		
-		
-		"text_xpos"			"0"
-		"text_xpos_collection" "0"
-		"text_ypos"			"0"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"16"
+		"padding_height"	"15"
 		
 		"attriblabel"
 		{
@@ -437,7 +464,7 @@
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
-			"wide"			"f0"
+			"wide"			"140"
 			"tall"			"60"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -445,8 +472,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"110 110 110 255"
-			"bgcolor_override"	"0 0 0 0"
+			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -532,31 +558,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		""
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"CancelApplyToolButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelApplyToolButton"
-		"xpos"			"c-288"
-		"ypos"			"323"
-		"zpos"			"20"
-		"wide"			"100"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"canceltool"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

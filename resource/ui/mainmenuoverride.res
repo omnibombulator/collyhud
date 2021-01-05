@@ -1,7 +1,7 @@
 //thanks omni i stole this from u
 //no problem bro
 #base "../../resource/extras/preload.res"
-#base "../../resource/extras/MMReload.res"
+//#base "../../resource/extras/MMReload.res"
 
 
 "Resource/UI/MainMenuOverride.res"

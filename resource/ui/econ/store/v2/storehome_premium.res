@@ -29,12 +29,12 @@
 			
 //			if_halloween
 //			{
-//				"visible"		"1"
+//				"visible"		"0"
 //				"image"		"store/store_halloween_premium_callout"
 //			}
 			if_christmas
 			{
-				"visible"		"1"
+				"visible"		"0"
 				"ypos"			"15"
 				"image"		"store/store_australian_christmas_callout_sale"
 			}
