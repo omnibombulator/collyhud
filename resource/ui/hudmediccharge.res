@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"font"			"hp38"
+		"font"			"ProductBold40"
 		"fgcolor"		"216 216 216 255"
 		"xpos"			"24"
 		"ypos"			"32"
@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"font"			"hp38blur"
+		"font"			"ProductBold40blur"
 		"fgcolor"		"0 0 0 150"
 		"xpos"			"25"
 		"ypos"			"33"
