@@ -3,19 +3,20 @@
 	// player health data
 	"HudPlayerHealth"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-220"		[$WIN32]
-		"ypos"			"r183"	[$WIN32]
-		"zpos"			"2"
-		"wide"			"450"
-		"tall"			"120"
-		"visible"		"1"
-		"enabled"		"1"
-		"HealthBonusPosAdj"	"32"
-		"HealthDeathWarning"	".49"
+		"ControlName"				"EditablePanel"
+		"fieldName"					"HudPlayerHealth"
+		"xpos"						"c-220"		[$WIN32]
+		"ypos"						"r183"	[$WIN32]
+		"zpos"						"2"
+		"wide"						"450"
+		"tall"						"120"
+		"visible"					"1"
+		"enabled"					"1"
+		"HealthBonusPosAdj"			"32"
+		"HealthDeathWarning"		".49"
 		"HealthDeathWarningColor"	"200 52 52 255"
 	}
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -31,6 +32,7 @@
 		"alpha"			"255"
 		"scaleImage"	"1"
 	}
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -44,8 +46,9 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/buffbg"
 		"scaleImage"	"1"
-		"fillcolor"	"blank"
+		"fillcolor"		"blank"
 	}
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -60,6 +63,7 @@
 		"image"			"replay/thumbnails/hp/buff2"
 		"scaleImage"	"1"
 	}
+	
 	"PlayerStatusHealthValueMain"
 	{
 		"ControlName"	"CExLabel"
@@ -76,6 +80,7 @@
 		"font"			"ProductBold40"
 		"fgcolor"		"236 236 236 255"
 	}
+	
 	"PlayerStatusHealthValueMainShadowHidden"
 	{
 		"ControlName"	"CExLabel"
@@ -108,6 +113,7 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -123,6 +129,7 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -138,6 +145,7 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -153,6 +161,7 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -168,6 +177,7 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -183,6 +193,7 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -214,6 +225,7 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -229,6 +241,7 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -244,7 +257,6 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 	}
-
 
 	"PlayerStatus_WheelOfDoom"
 	{

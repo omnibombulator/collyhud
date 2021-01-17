@@ -105,14 +105,14 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
 		"font"					"PRODUCT8"
-		"bgcolor"		"0 0 0 165"
+		"bgcolor"				"0 0 0 165"
 		"bgcolor_override"		"0 0 0 165"
 		"fgcolor"				"245 245 245 110"
 		"border"				"noborder"
 		"textinsetx"			"8"
 		"auto_wide_tocontents"	"1"
 		
-		"pin_to_sibling" "ExampleAnchor"
+		"pin_to_sibling"		"ExampleAnchor"
         "pin_corner_to_sibling" "1"
         "pin_to_sibling_corner" "0"
 	}

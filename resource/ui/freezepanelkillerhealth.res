@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"font"			"hp42"//"DefaultVerySmall"
+		"font"			"ProductBold40"//"DefaultVerySmall"
 		"fgcolor_override"		"tanlight"
 	}
 	"PlayerStatusHealthValueMainS"
@@ -62,7 +62,7 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"font"			"hp42blur"//"DefaultVerySmall"
+		"font"			"ProductBold40blur"//"DefaultVerySmall"
 		"fgcolor_override"		"0 0 0 120"
 	}
 

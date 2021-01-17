@@ -79,7 +79,7 @@
 		"visible"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"west"
-		"border"	"noborder"
+		"border"		"noborder"
 		"font"			"blocks"
 		"fgcolor_override"		"210 210 210 255"
 	}

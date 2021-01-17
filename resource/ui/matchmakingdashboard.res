@@ -647,7 +647,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"DisconnectButton"
 			"xpos"			"12"
-			"ypos"			"12"
+			"ypos"			"999"
 			"zpos"			"20"
 			"tall"			"20"
 			"wide"			"20"
