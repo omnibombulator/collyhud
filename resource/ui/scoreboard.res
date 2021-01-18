@@ -1,3 +1,102 @@
+
+
+
+#base "../../resource/extras/scoreboard/compsafe.res"
+
+
+
+// If you're playing TF2 competitively (ETF2L, RGL, etc.), leave the above line alone.
+// This also goes for if you're using DX8.
+// If you wish to use the old collyhud scoreboard effect, comment the above line using // before the line.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 "Resource/UI/Scoreboard.res"
 {
 	"scores"
@@ -38,7 +137,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACTClear"
 	}
@@ -55,7 +153,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACTClear"
 	}
@@ -72,7 +169,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 15"
 	}
@@ -89,7 +185,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 15"
 	}
@@ -103,13 +198,11 @@
 		"wide"			"254"
 		"tall"			"143"
 		"tall_minmode"	"250"
-		"alpha"			"255"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
 
 		if_mvm
 		{
@@ -131,13 +224,11 @@
 		"tall_minmode"			"250"
 		"wide"			"254"
 		"tall"			"143"
-		"alpha"			"255"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACT"
 
 		if_mvm
 		{
@@ -160,7 +251,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -170,7 +260,6 @@
 			"ypos_minmode"	"c-42"
 			"wide"			"532"
 			"tall"			"2"
-			"visible"		"1"
 		}
 	}
 	"BluePlayerGap"
@@ -187,7 +276,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -210,7 +298,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -233,7 +320,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -256,7 +342,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -279,7 +364,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -302,7 +386,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -325,7 +408,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -348,7 +430,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -371,7 +452,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -394,7 +474,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -417,7 +496,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -440,7 +518,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -463,7 +540,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -486,7 +562,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -509,7 +584,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -532,7 +606,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -555,7 +628,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -578,7 +650,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -601,7 +672,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -624,7 +694,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -647,7 +716,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -670,7 +738,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -693,7 +760,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"border"		"noborder"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/REFRACT"
 
@@ -715,7 +781,6 @@
 		"alpha"			"255"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"250 250 250 0"
 		"border"		"LightWhiteLine"
@@ -724,7 +789,6 @@
 		{
 			"wide"			"524"
 			"ypos_minmode"	"c-42"
-			"visible"		"1"
 		}
 	}
 	"RedTeamPlayerLineCover"
@@ -740,7 +804,6 @@
 		"alpha"			"255"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"			"250 250 250 0"
 		"border"		"LightWhiteLine"
@@ -1106,7 +1169,6 @@
 		"labelText"				"%servertime%"
 		"font"					"product8"
 		"fgcolor"				"TANLIGHT120"
-		"border"				"blurborder"
 		"textAlignment"			"east"
 		"auto_wide_tocontents"	"1"
 		"xpos"					"86"
@@ -1130,7 +1192,6 @@
 		"labelText"			"SERVER MAP TIME LEFT:"
 		"font"				"productbold8"
 		"fgcolor"			"245 245 245 235"
-		"border"			"blurborder"
 		"textAlignment"		"WEST"
 		"wide" 				"82"
 		"xpos"				"6"
@@ -1154,7 +1215,6 @@
 		"labelText"			"SPECTATORS:"
 		"font"				"productbold8"
 		"fgcolor"			"245 245 245 235"
-		"border"			"blurborder"
 		"textAlignment"		"WEST"
 		"wide" 				"54"
 		"xpos"				"6"
@@ -1182,7 +1242,6 @@
 		"zpos"					"5"
 		"font"					"product8"
 		"fgcolor"				"TANLIGHT120"
-		"border"				"blurborder"
 		"textAlignment"			"east"
 		"auto_wide_tocontents" 	"1"
 		"xpos"					"54"
@@ -1360,7 +1419,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-
 	}
 
 	"HorizontalLine"
@@ -1642,23 +1700,42 @@
 			"visible"		"1"
 		}
 
-
 		"StatsBG"
 		{
-			"ControlName"		"ctfImagePanel"
+			"ControlName"	"ctfImagePanel"
 			"fieldName"		"StatsBG"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"254"
 			"tall"			"60"
 			"zpos"			"0"
-			"alpha"			"255"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"border"		"noborder"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/hp/REFRACT"
+			"fillcolor"		"0 0 0 165"
+
+			if_mvm
+			{
+				"visible"		"0"
+			}
+		}
+		"StatsBGNew"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"StatsBGNew"
+			"xpos"					"0"
+			"ypos"					"0"
+			"wide"					"254"
+			"tall"					"60"
+			"zpos"					"0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"border"				"noborder"
+			"visible"				"1"
+			"enabled"				"1"
+			"bgcolor_override"		"0 0 0 165"
 
 			if_mvm
 			{
@@ -2084,3 +2161,6 @@
 		}
 	}
 }
+
+// Do not touch this at all, it is vital for the scoreboard to display correctly.
+#base "../../resource/extras/scoreboard/regular.res"
