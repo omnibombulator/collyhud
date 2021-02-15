@@ -85,7 +85,7 @@ Scheme
 		"RedSolid"								"192 28 0 255"
 		"Blue"									"0 28 162 140"
 		"Yellow"								"240 240 240 255"
-		"TransparentYellow"						"240 240 240140"
+		"TransparentYellow"						"240 240 240 140"
 		"BrightYellow"							"251 235 0 255"
 		"GreenSolid"					 		"76 107 34 255"
 		
@@ -7481,11 +7481,6 @@ Scheme
 			}
 		}			
 		"7" "resource/ocra.ttf"
-		"9"
-		{
-			"font" "resource/fonts/HUDNumbers-Edit.ttf"
-			"name" "HUDNumbers Edit"
-		}
 		"12"
 		{
 			"font" "resource/fonts/Blank.ttf"
