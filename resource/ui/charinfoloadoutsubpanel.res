@@ -1215,6 +1215,31 @@
 		"visible"							"0"
 	}
 
+	"armory_panel"
+	{
+		"ControlName"						"CArmoryPanel"
+		"fieldName"							"armory_panel"
+		"xpos"								"0"
+		"ypos"								"0"
+		"wide"								"f0"
+		"tall"								"400"
+		"zpos"								"500"
+		"visible"							"1"
+	}
+	
+	"InspectionPanel"
+	{
+		"fieldName"							"InspectionPanel"
+		"xpos"								"cs-0.5"
+		"ypos"								"0"
+		"zpos"								"2900"
+		"wide"								"f0"
+		"tall"								"f0"
+		"visible"							"0"
+		"proportionaltoparent"				"1"
+		"bgcolor_override"					"0 0 0 80"
+	}
+
 	"ShowExplanationsButton"
 	{
 		"ControlName"						"CExButton"
@@ -2473,30 +2498,5 @@
 			"enabled"						"1"
 			"fgcolor_override" 				"softselect"
 		}
-	}
-
-	"armory_panel"
-	{
-		"ControlName"						"CArmoryPanel"
-		"fieldName"							"armory_panel"
-		"xpos"								"0"
-		"ypos"								"0"
-		"wide"								"f0"
-		"tall"								"400"
-		"zpos"								"500"
-		"visible"							"1"
-	}
-	
-	"InspectionPanel"
-	{
-		"fieldName"							"InspectionPanel"
-		"xpos"								"cs-0.5"
-		"ypos"								"0"
-		"zpos"								"2900"
-		"wide"								"f0"
-		"tall"								"f0"
-		"visible"							"0"
-		"proportionaltoparent"				"1"
-		"bgcolor_override"					"0 0 0 80"
 	}
 }

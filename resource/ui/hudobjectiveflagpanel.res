@@ -303,12 +303,11 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-135"
-		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
-		"zpos"			"5"
-		"wide"			"0"
-		"tall"			"90"
+		"xpos"			"c-95"
+		"ypos"			"rs1"
+		"zpos"			"10"
+		"wide"			"40"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -343,12 +342,11 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-25"
-		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
-		"zpos"			"5"
-		"wide"			"0"
-		"tall"			"90"
+		"xpos"			"c55"
+		"ypos"			"rs1"
+		"zpos"			"10"
+		"wide"			"40"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 

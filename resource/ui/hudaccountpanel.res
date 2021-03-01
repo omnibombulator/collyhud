@@ -8,7 +8,7 @@
 		"PositiveColor"			"43 195 123 255"
 		"NegativeColor"			"softred"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"hp10"
+		"delta_item_font"		"productbold14"
 	}
 	
 	"AccountBG"
