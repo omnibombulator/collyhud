@@ -14,7 +14,7 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"tabPosition"						"0"
-		"settitlebarvisible"				"0"
+		"settitlebarvisible"				"1"
 		"PaintBackgroundType"				"0"
 		"bgcolor_override"					"blank"
 		"infocus_bgcolor_override"			"blank"
