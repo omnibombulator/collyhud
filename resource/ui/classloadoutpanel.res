@@ -4,7 +4,7 @@
 	{
 		"ControlName"						"Frame"
 		"fieldName"							"class_loadout_panel"
-		"xpos"								"140"
+		"xpos"								"0"
 		"ypos"								"0"
 		"wide"								"f0"
 		"zpos"								"1"
@@ -94,7 +94,6 @@
 				"fillcolor"					"0 0 0 0"
 				"mouseinputenabled" 		"0"
 				"Alpha"						"255"
-				"paintborder"				"9"
 			}
 		}
 
